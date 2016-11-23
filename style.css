@@ -13,6 +13,7 @@ html, body {
 
 #header {
 	background: #fdd;
+	padding: 10px;
 }
 
 #content-1 {
@@ -22,7 +23,7 @@ html, body {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-
+	padding: 10px;
 }
 
 #content-2 {
@@ -35,12 +36,26 @@ html, body {
 
 #content-2-1 {
 	background: #ddf;
+	float: left;
+	width: 70%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 10px;
 }
 
 #content-2-2 {
 	background: #dff;
+	float: right;
+	width: 30%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 10px;
 }
 
 #footer {
 	background: #ff9;
+	clear: both;
+	padding: 10px;
 }
